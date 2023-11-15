@@ -1,0 +1,27 @@
+name: t5-recsys
+
+channels:
+    - defaults
+    - conda-forge
+
+dependencies:
+    - bunch
+    - seaborn
+    - matplotlib
+    - numpy
+    - jupyterlab
+    # Required to fix next tqdm issue:
+    # Failed to load model class 'HBoxModel' from module '@jupyter-widgets/controls.
+    - ipywidgets
+    - tqdm
+    - optuna
+    - mysqlclient
+    - nltk
+    - pip
+    - pip:
+          - --extra-index-url https://download.pytorch.org/whl/cu121
+          - torch
+          - singleton-decorator
+          - transformers
+          - sentencepiece
+          - pytorch_lightning
