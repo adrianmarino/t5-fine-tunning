@@ -4,3 +4,10 @@ Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
 
 
 **See**: [Notebook](https://github.com/adrianmarino/t5-fine-tunning/blob/master/T5_sentiment_analisys.ipynb)
+
+
+## Referencies
+
+* [T5 Fine tunning](https://colab.research.google.com/github/patil-suraj/exploring-T5/blob/master/t5_fine_tuning.ipynb#scrollTo=SDVQ04fGRb1v)
+* [T5](https://huggingface.co/docs/transformers/v4.35.1/en/model_doc/t5#transformers.T5ForConditionalGeneration)
+* [Exploring the Limits of Transfer Learning with a UnifiedText-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
