@@ -17,6 +17,7 @@ dependencies:
     - optuna
     - mysqlclient
     - nltk
+    - scipy
     - pip
     - pip:
           - --extra-index-url https://download.pytorch.org/whl/cu121
